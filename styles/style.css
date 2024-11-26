@@ -27,14 +27,14 @@ nav {
     color: #fff;
 }
 
-.navbar{
+.navbar {
     width: 900px;
     height: 80px;
     /* border: 2px solid #fff; */
     margin: 20px auto;
 }
 
-.navbar td{
+.navbar td {
     width: 20%;
     text-align: center;
     /* background-color: aqua; */
@@ -47,9 +47,47 @@ nav {
     font-size: 20px;
 }
 
-.navbar td a:hover{
+.navbar td a:hover {
     color: orangered;
     font-weight: 700;
     font-size: 22px;
 }
 
+/* section  */
+
+.section {
+    width: 800px;
+    height: 478px;
+    background-image: url(../images/section-bg.png);
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* make above image in photoshop  */
+    clear: left;
+    float: right;
+    padding: 100px;
+}
+
+.logo {
+    width: 220px;
+    height: 200px;
+    border: 2px solid #fff;
+    margin: auto;
+    /* margin-left: 170px; */
+}
+
+.logo-text {
+    color: #fff;
+    text-align: center;
+    font-size: 160px;
+    margin-top: 10px;
+}
+
+.domain-name {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 22px;
+    margin-top: 15px;
+}
